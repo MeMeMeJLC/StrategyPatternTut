@@ -30,7 +30,7 @@ namespace StrategyPatternTut
                         weapon = new Club();
                         break;
                     default:
-                        Console.WriteLine("no weapon picked");
+                        weapon = new Null();
                         break;
                 }
 
